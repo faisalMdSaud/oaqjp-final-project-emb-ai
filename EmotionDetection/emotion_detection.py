@@ -23,8 +23,7 @@ def emotion_detector(text_to_analyze):
             'sadness': emotions_dict['sadness'],
             'dominant_emotion': dominant_name
         }
-        # Print the final result
-        print(result)
+        return result
 
     
 
